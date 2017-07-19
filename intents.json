@@ -1,0 +1,67 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "goodmorning",
+         "patterns": ["GM", "Good Morning", "Gud Morning"],
+         "responses": ["Good Morning, Have a Great Day!", "Good Morning, Have a nice day", ""]
+        },
+        {"tag": "goodnight",
+         "patterns": ["gn", "Good night", "Gud night"],
+         "responses": ["Good Night, Take care", "Good Night, thank you for visiting us"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "courses",
+         "patterns": ["Which courses do you have?", "What kinds of courses are there?", "What all courses do you provide?" ],
+         "responses": ["We provide training on Airtificial Intelligence, Machine Learning and many more", "We provide training on Airtificial Intelligence, Machine Learning and many more, for further details feel free to call us on 9900737619"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard, AMEX and Cash as Well", "We accept most major credit cards","We accept Cash and Card as Well"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "rental",
+         "patterns": ["Can we rent a moped?", "I'd like to rent a moped", "How does this work?" ],
+         "responses": ["Are you looking to rent today or later this week?"],
+         "context_set": "rentalday"
+        },
+        {"tag": "today",
+         "patterns": ["today"],
+         "responses": ["For rentals today please call 1-800-MYMOPED", "Same-day rentals please call 1-800-MYMOPED"]
+        },
+        {"tag": "created",
+         "patterns": ["Who created you","who developed you"],
+         "responses": ["Its Prithvi!!!", "Mr. Prithvi"] 
+        },
+        {"tag": "friend",
+         "patterns": ["Who is your best friend","how is your friend"],
+         "responses": ["Prithvi", "Mr. Prithvi, he is damn cool"]       
+        },        
+        {"tag": "online",
+         "patterns": ["Do you provide online training","i need online training"],
+         "responses": ["ya we do provide instructor led online training", "yes we provide online and classroom training"],
+         "context_set": "onlinetraining"       
+        },
+        {"tag": "address",
+         "patterns": ["Where is your office","may i know your office address"],
+         "responses": ["we are located in AECS layout"],
+         "context_set": "officeaddress"       
+        }
+   ]
+}
